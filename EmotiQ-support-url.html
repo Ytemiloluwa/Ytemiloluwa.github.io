@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmotiQ Support - Help & FAQ</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #8B5CF6 0%, #06B6D4 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        .header h1 {
+            color: #8B5CF6;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .header p {
+            color: #666;
+            font-size: 1.1em;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section h2 {
+            color: #8B5CF6;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .section h3 {
+            color: #06B6D4;
+            font-size: 1.3em;
+            margin-bottom: 15px;
+            margin-top: 25px;
+        }
+        
+        .faq-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #8B5CF6;
+        }
+        
+        .faq-question {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 8px;
+        }
+        
+        .faq-answer {
+            color: #555;
+            line-height: 1.6;
+        }
+        
+        .contact-box {
+            background: linear-gradient(135deg, #8B5CF6, #06B6D4);
+            color: white;
+            padding: 25px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        
+        .contact-box h3 {
+            color: white;
+            margin-bottom: 10px;
+        }
+        
+        .contact-box a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+        
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+        
+        .requirements-list {
+            background: #f0f9ff;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #06B6D4;
+        }
+        
+        .requirements-list ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        .requirements-list li {
+            padding: 5px 0;
+            position: relative;
+            padding-left: 25px;
+        }
+        
+        .requirements-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #06B6D4;
+            font-weight: bold;
+        }
+        
+        .troubleshooting-steps {
+            background: #fff7ed;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #f59e0b;
+        }
+        
+        .troubleshooting-steps ol {
+            padding-left: 20px;
+        }
+        
+        .troubleshooting-steps li {
+            margin: 5px 0;
+        }
+        
+        .emergency-notice {
+            background: #fef2f2;
+            border: 2px solid #ef4444;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .emergency-notice h3 {
+            color: #dc2626;
+            margin-bottom: 10px;
+        }
+        
+        .emergency-notice p {
+            color: #7f1d1d;
+            font-weight: 500;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #f0f0f0;
+            color: #666;
+        }
+        
+        .footer p {
+            margin: 5px 0;
+        }
+        
+        .social-links {
+            margin: 15px 0;
+        }
+        
+        .social-links a {
+            color: #8B5CF6;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: 500;
+        }
+        
+        .social-links a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                margin: 20px;
+                padding: 15px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .section h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>EmotiQ Support</h1>
+            <p>We're here to help you get the most out of your emotional wellness journey with EmotiQ. Whether you have questions about features, need technical assistance, or want to provide feedback, we're committed to supporting you every step of the way.</p>
+        </div>
+
+        <div class="section">
+            <h2>Frequently Asked Questions</h2>
+            
+            <h3>Getting Started</h3>
+            
+            <div class="faq-item">
+                <div class="faq-question">Q: How does EmotiQ analyze my emotions through voice?</div>
+                <div class="faq-answer">A: EmotiQ uses Digital signal processing and Speech recognition to analyze vocal patterns, tone, and speech characteristics that correlate with emotional states. Our Dual pipeline technology processes these vocal cues to provide insights into your current emotional state and patterns over time.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Q: Is my voice data secure and private?</div>
+                <div class="faq-answer">A: Absolutely. Your voice data is processed securely with our third-party service provider ElevenLabs. Please review our Privacy Policy for complete details.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Q: Do I need an internet connection to use EmotiQ?</div>
+                <div class="faq-answer">A: Yes, EmotiQ requires an internet connection for voice analysis and AI coaching features.</div>
+            </div>
+
+            <h3>Subscription & Billing</h3>
+            
+            <div class="faq-item">
+                <div class="faq-question">Q: What's included in the free version?</div>
+                <div class="faq-answer">A: The free version includes basic voice analysis with limited daily check-ins. Premium features include unlimited voice analysis, personalized AI coaching, voice affirmations, and detailed emotional analytics.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Q: How do I cancel my subscription?</div>
+                <div class="faq-answer">A: You can cancel your subscription anytime through your iPhone's Settings > Apple ID > Subscriptions > EmotiQ > Cancel Subscription. Your premium features will remain active until the end of your current billing period.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Q: Can I get a refund?</div>
+                <div class="faq-answer">A: Refund requests are handled through Apple's App Store policies. You can request a refund directly through Apple within the eligible timeframe after purchase.</div>
+            </div>
+
+            <h3>Technical Support</h3>
+            
+            <div class="faq-item">
+                <div class="faq-question">Q: EmotiQ isn't recognizing my voice properly. What should I do?</div>
+                <div class="faq-answer">A: Ensure you're in a quiet environment and speaking clearly into your device's microphone. Check that EmotiQ has microphone permissions enabled in your iPhone's Settings > Privacy & Security > Microphone > EmotiQ.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Q: Failed to record Audio for emotion Analysis.</div>
+                <div class="faq-answer">A: After voice cloning set up you might encounter "failed to record audio error". Restart the app for an audio clean up.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Q: The app is crashing or not loading properly.</div>
+                <div class="faq-answer">A: Try these troubleshooting steps:
+                    <div class="troubleshooting-steps">
+                        <ol>
+                            <li>Force close the app and reopen it</li>
+                            <li>Restart your iPhone</li>
+                            <li>Ensure you have the latest version of EmotiQ from the App Store</li>
+                            <li>Check that you have a stable internet connection</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Q: My emotional analytics aren't showing up.</div>
+                <div class="faq-answer">A: Analytics require multiple voice check-ins over time to generate meaningful patterns.</div>
+            </div>
+
+            <h3>Features & Usage</h3>
+            
+            <div class="faq-item">
+                <div class="faq-question">Q: How often should I use EmotiQ?</div>
+                <div class="faq-answer">A: We recommend daily check-ins for the best insights into your emotional patterns. However, you can use EmotiQ whenever you want to understand your current emotional state or need coaching support.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Q: Can I use EmotiQ if English isn't my first language?</div>
+                <div class="faq-answer">A: EmotiQ is optimized for English speakers. While it may work with accented English, accuracy may vary. We're working on expanding language support in future updates.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Q: How do voice affirmations work?</div>
+                <div class="faq-answer">A: Premium users can create personalized affirmations that are generated in a voice similar to their own. This feature uses advanced voice synthesis technology to create meaningful, personalized content.</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Contact Support</h2>
+            
+            <div class="contact-box">
+                <h3>Email Support</h3>
+                <p>For technical issues, billing questions, or general inquiries:</p>
+                <a href="mailto:emotiqapp@gmail.com">emotiqapp@gmail.com</a>
+                <p style="margin-top: 10px; font-size: 0.9em;">We typically respond within 24-48 hours during business days.</p>
+            </div>
+            
+            <div class="contact-box">
+                <h3>Bug Reports</h3>
+                <p>Found a bug? Help us improve EmotiQ by reporting it:</p>
+                <a href="mailto:emotiqapp@gmail.com">emotiqapp@gmail.com</a>
+                <p style="margin-top: 10px; font-size: 0.9em;">Please include:</p>
+                <ul style="margin-top: 5px; padding-left: 20px;">
+                    <li>Your device model and iOS version</li>
+                    <li>Steps to reproduce the issue</li>
+                    <li>Screenshots if applicable</li>
+                </ul>
+            </div>
+            
+            <div class="contact-box">
+                <h3>Feature Requests</h3>
+                <p>Have an idea for improving EmotiQ?</p>
+                <a href="mailto:emotiqapp@gmail.com">emotiqapp@gmail.com</a>
+                <p style="margin-top: 10px; font-size: 0.9em;">We love hearing from our community and regularly implement user-suggested features.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>System Requirements</h2>
+            <div class="requirements-list">
+                <ul>
+                    <li>iOS 15.0 or later</li>
+                    <li>iPhone 8 or newer (iPhone X or newer recommended for optimal performance)</li>
+                    <li>Stable internet connection</li>
+                    <li>Microphone access permissions</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Privacy & Security</h2>
+            <p>Your privacy is our priority. EmotiQ:</p>
+            <div class="requirements-list">
+                <ul>
+                    <li>Never shares personal information with third parties</li>
+                    <li>Allows you to delete your data at any time</li>
+                    <li>Complies with GDPR and CCPA privacy regulations</li>
+                </ul>
+            </div>
+            <p style="margin-top: 15px;">For complete privacy details, please review our <a href="https://ytemiloluwa.github.io/privacy-policy.html" style="color: #8B5CF6; text-decoration: none;">Privacy Policy</a>.</p>
+        </div>
+
+        <div class="section">
+            <h2>Community Guidelines</h2>
+            <p>EmotiQ is designed to support your emotional wellness journey. We ask all users to:</p>
+            <div class="requirements-list">
+                <ul>
+                    <li>Use the app for personal growth and self-reflection</li>
+                    <li>Respect the privacy of their emotional data</li>
+                    <li>Contact support if they experience any concerning content or recommendations</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Updates & Announcements</h2>
+            <p>Stay informed about new features and updates:</p>
+            <div class="social-links">
+                <a href="https://x.com/EmotiQApp" target="_blank">Follow us on X (Twitter)</a>
+            </div>
+            <div class="requirements-list">
+                <ul>
+                    <li>Check the "What's New" section in the App Store</li>
+                    <li>Enable push notifications for important announcements</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Legal</h2>
+            <p>For terms of service, please visit: <a href="https://ytemiloluwa.github.io/Term-of-use.html" style="color: #8B5CF6; text-decoration: none;">Terms of Service</a></p>
+            <p>For privacy policy, please visit: <a href="https://ytemiloluwa.github.io/privacy-policy.html" style="color: #8B5CF6; text-decoration: none;">Privacy Policy</a></p>
+        </div>
+
+        <div class="footer">
+            <hr style="margin: 20px 0; border: none; border-top: 1px solid #e0e0e0;">
+            <p><strong>EmotiQ Support Team</strong></p>
+            <p>Last Updated: September 2025</p>
+            <p style="font-style: italic; margin-top: 15px;">We're committed to helping you unlock your emotional intelligence. Thank you for choosing EmotiQ for your wellness journey.</p>
+        </div>
+    </div>
+</body>
+</html>
+
